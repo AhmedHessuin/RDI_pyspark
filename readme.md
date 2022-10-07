@@ -1,7 +1,9 @@
 # RDI pyspark repo
 ## Train
 train is made with logestic regrssion, you can start train with 
-```python main.py 1 1 1 <data-base-path-as-sqlite>```
+```
+python main.py 1 1 1 "<data-base-path-as-sqlite>"
+```
 flags explaination
 ```
 
@@ -22,7 +24,7 @@ train is made with logestic regression model using only the text column features
 ## Test 
 test is made by loading the model and inference on the data 
 ```
-python inf.py 1 <data-base-path-as-sqlite> <model-path>
+python inf.py 1 "<data-base-path-as-sqlite>" "<model-path>"
 ```
 1 means we will create the .csv file based on the <data-base-path-as-sqlite>
 <data-base-path-as-sqlite> the data base path 
