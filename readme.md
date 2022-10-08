@@ -1,4 +1,13 @@
 # RDI pyspark repo
+## enviorment
+setup can be done as
+```
+conda create -n pyspark python=3.8.0
+conda activate pyspark
+pip install pyspark
+pip install pandas
+```
+
 ## Train
 train is made with logestic regrssion, you can start train with 
 ```
