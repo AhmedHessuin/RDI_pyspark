@@ -31,3 +31,15 @@ python inf.py 1 "<data-base-path-as-sqlite>" "<model-path>"
 <model-path> the model path 
 
 inference is made by making all data as test data then evaluate on it 
+
+#Data base file and re-run experiment 
+[link](https://drive.google.com/file/d/1aN1Ln4exHJzI7vL9xN8Pg4YqYer7_ZdZ/view?usp=sharing)
+you can download it in the same directory 
+for train
+```
+python main.py 1 1 1 database.sqlite 
+```
+for test
+```
+python inf.py 1 database.sqlite saved_model_iteration_3
+```
